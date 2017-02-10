@@ -1,6 +1,3 @@
-/*eingelijk kunnen er meerdere van deze styles samen genomen worden :D maar op het moment dat de ideen binnen kwamen dacht ik: maak maar een nieuwe... totaal onnodig :( */
-
-
 #Titel {
     text-align: center;
     font-size: 50;
@@ -16,7 +13,7 @@
     font-size: 15;
     margin-bottom: 80;
     padding: -541;
-    
+
 }
 
 #JcoleImage {
@@ -33,54 +30,37 @@
 }
 
 
-.imgsize { /*Deze en */
+.imgSizeCenter {
     width: 400;
-}
-
-
-
-.centerimg {/*deze zijn toegevoed bij alle fotos  ik kon er eingleijk één van maken nu dat ik t zie......*/
     margin: 0 auto;
 }
 
-#text {
+
+
+.text {
     font-family: sans-serif;
     font-style: italic;
-    
+
 }
 
-
-
-
-
-
-.musicredirect {/*zodat de click boxes evengroot als het album art is maar toch doet t eerste album art beetje vreemd*/
+.musicRedirect {/*zodat de click boxes evengroot als het album arts zijn maar toch doet t eerste album art beetje vreemd*/
      display: block;
     width: 400;
     margin: auto;
-   
-    
-}
-
-
-
-.textcenter {
-    text-align: center;
 }
 
 h3 {
     text-align: center;
 }
 
-
-/* 
+/*
 
 Wilde dat elke "rechthoek" (elke album art plus bij behoorende text) een matching achtergrond krijg maar dit is vreeselijk :P. Un-comment at your own risk hehe.
 #thewarmup {
-   
+
    background-color: rgb(5,9,13);
-    
-    
+
+
 }
 #FDL {
     background-color: rgb(18,31,59)
@@ -107,11 +87,9 @@ Wilde dat elke "rechthoek" (elke album art plus bij behoorende text) een matchin
 
 
 
-.paddingbot {
-    margin-bottom: 55; 
-/*    should be called maringbot but to lazy to change the calss to all the img
-    
-    Spatie tussen album arts*/
+.marginBot {
+    margin-bottom: 55;
+/*    Spatie tussen album arts*/
 }
 
 h2 {
@@ -119,10 +97,10 @@ h2 {
     padding-bottom: 150;
 }
 
-.secondMargin { /*uuhm ook spatie tussen album arts ? :D ben vergeten*/
+.secondMargin { /*uuhm ook spatie tussen album arts ? */
     margin-bottom: 100;
 }
 
-.extramargin {/*voor extra ruimte bij de laatse  paar */
+.extraMargin {/*voor extra ruimte bij de laatse  paar */
     margin-bottom: 200
 }
