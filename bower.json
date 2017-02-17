@@ -1,0 +1,24 @@
+{
+  "name": "j.-jole-jribute-page",
+  "homepage": "https://github.com/OGKevin/J.-Cole-Tribute-page",
+  "authors": [
+    "OGKevin <Kevinhellemun@icloud.com>"
+  ],
+  "description": "J cole tribute page by OGkevin",
+  "main": "./index.html",
+  "keywords": [
+    "J.",
+    "cole"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
