@@ -1,153 +1,134 @@
 #Titel {
-	text-align: center;
-	font-size: 50;
-	font-family: monospace;
-	/*margin-top: 50;*/
+    text-align: center;
+    font-size: 50;
+    font-family: monospace;
+    /*margin-top: 50;*/
 }
 
 #quote {
-	text-align: center;
-	font-style: italic;
-	font-family: cursive;
-	font-size: 15;
-	margin-bottom: 80;
-	padding: -541;
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 15;
+    margin-bottom: 80;
+    padding: -541;
 }
 
 #JcoleImage {
-	width: 400;
-	display: block;
-	margin: auto;
+    width: 400;
+    display: block;
+    margin: auto;
 }
 
 #caption {
-	text-align: center;
-	font-family: monospace;
-	margin-bottom: 150;
-}
-
-#sideBar {
-	/*border: 5px solid blue;*/
-	/*margin-top: 50;*/
+    text-align: center;
+    font-family: monospace;
+    margin-bottom: 150;
 }
 
 #wrap {
-	/* NOTE: backgroundImg and no scroll */
-	height: 100%;
-	overflow: hidden;
-	background-image: url("images/j_cole_final_by_sbm832-d96e2ll.jpg");
+    /* NOTE: backgroundImg and no scroll */
+    height: 100%;
+    /*	overflow: hidden;*/
+    background-image: url("images/j_cole_final_by_sbm832-d96e2ll.jpg");
 }
 
 .positioning {
-	/* NOTE: flex for container div */
-	margin-top: 200px;
-	padding-left: 5px;
-	padding-right: 5px;
-	margin-right: 100px;
-	/*border: 3px solid red;*/
-	display: flex;
-	flex-direction: row;
-	background-color: rgba(192, 192, 192, 0.3);
+    /* NOTE: flex for container div */
+    margin-top: 16%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 100px;
+    /*border: 3px solid red;*/
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(192, 192, 192, 0.3);
 }
 
-.textPos {
-	margin-top: 5px;
-	font: 15px "Gill Sans Bold";
+#info {
+    visibility: hidden;
 }
 
-.imgPos {
-	margin-top: 5px;
-	padding-left: 100px;
+#albumDiscription {
+    font: 15px "Gill Sans Bold";
 }
 
 .backgroundImg {
-	background-size: contain;
-	display: block;
-	filter: blur(25px);
-	-webkit-filter: blur(25px);
-	height: 1000px;
-	left: 0;
-	position: absolute;
-	right: 0;
-	z-index: 1;
+    background-size: contain;
+    display: block;
+    filter: blur(25px);
+    -webkit-filter: blur(25px);
+    height: 1000px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: 1;
 }
 
 .sideBarImg {
-	width: 70px;
-	margin: 15px;
-}
-
-.floatLeft {
-	width: 10%;
-	float: left;
-	z-index: 2;
-	position: absolute;
-}
-
-.floatRight {
-	width: 90%;
-	float: right;
-	z-index: 2;
-	position: relative;
-}
-
-.imgsize {
-	/*Deze en */
-	width: 400;
-}
-
-.centerimg {
-	/*deze zijn toegevoed bij alle fotos  ik kon er eingleijk één van maken nu dat ik t zie......*/
-	margin: 0 auto;
-}
-
-.text {
-	font-family: sans-serif;
-	font-style: italic;
-}
-
-
-/* BUG: click boxes are bgger then actual images */
-
-.musicredirect {
-	width: 400;
-	margin: auto;
-}
-
-.textcenter {
-	text-align: center;
+    width: 21.7%;
+    margin: 6;
 }
 
 h3 {
-	text-align: center;
+    text-align: center;
 }
 
 body {
-	height: 100%;
-	overflow: hidden;
-}
-
-.marginBot {
-	margin-bottom: 55;
-	/*Spatie tussen album arts*/
+    height: 100%;
+    overflow: hidden;
 }
 
 h2 {
-	text-align: center;
-	padding-bottom: 150;
-}
-
-.secondMargin {
-	/*uuhm ook spatie tussen album arts ? :D ben vergeten*/
-	margin-bottom: 100;
-}
-
-.extramargin {
-	/*voor extra ruimte bij de laatse  paar */
-	margin-bottom: 200
+    text-align: center;
+    padding-bottom: 150;
 }
 
 #trulyDatpiff {
-	display: flex;
-	flex-direction: row;
+    display: flex;
+    flex-direction: row;
+}
+
+#imgAndText {
+    display: flex;
+    flex-direction: row;
+}
+
+#albumArt {
+    width: auto;
+    height: 40%;
+}
+
+#textAndPlayer {
+    display: flex;
+    flex-direction: column;
+}
+
+#text {
+    width: 99%;
+}
+
+#entirePage {
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    position: relative;
+}
+
+#sideBar {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    margin: 5;
+}
+
+#mainSecondpage {
+    display: inherit;
+    flex-direction: column;
+}
+
+.wikiLink {
+    color: inherit;
+    text-decoration: inherit;
 }
